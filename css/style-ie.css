@@ -1,0 +1,30 @@
+#client-testimonials .slider-2 {
+    margin: 80px 6.5% 0 0 !important;
+    width: 22.25%;
+    float: right; }
+    #client-testimonials .slider-2 .description {
+      color: #809cd0;
+      font: italic 1.14286em arial; }
+    @media only screen and (max-width: 1350px) {
+      #client-testimonials .slider-2{
+        float: none;
+        margin: 0 auto !important;
+        padding-top: 30px;
+        width: 60.90909%; }
+        #client-testimonials .slider-2 img {
+          float: left;
+          width: 44%;
+          margin: -15px 3% 20px; }
+        #client-testimonials .slider-2 .description {
+          float: left;
+          width: 50%;
+          margin-top: 0; } }
+  #client-testimonials .slider-1 {
+    width: 31.5%;
+    margin: 110px 6.5% 0 !important;
+    float: left; }
+      @media only screen and (max-width: 1350px) {
+      #client-testimonials .slider-1 {
+        float: none;
+        margin: 0 auto !important;
+        width: 60.90909%; } }
