@@ -2336,14 +2336,17 @@ footer article li.menu-item-has-children ul li:before{
     footer article li.menu-item-has-children{
         float: none;
         width: 100%;
-        padding-top: 40px;
     }
 
     footer article li.menu-item-has-children ul li {
-        margin:0 0 21px 10px;
-        width:47%;
+        margin: 0 0 21px 10px;
+        width: 47%;
         display: inline-block;
         vertical-align: top;
+    }
+
+    footer article li.menu-item-has-children:nth-of-type(2){
+        margin-top:40px;
     }
 
     footer article li.menu-item-has-children:nth-of-type(4), footer article li.menu-item-has-children:nth-of-type(5){
