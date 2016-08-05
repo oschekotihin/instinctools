@@ -15,9 +15,10 @@
 					<img src="<?php bloginfo('template_url'); ?>/images/icon-android.png" alt="Android">
 					<img src="<?php bloginfo('template_url'); ?>/images/icon-apple.png" alt="Apple">
 					<img src="<?php bloginfo('template_url'); ?>/images/icon-win.png" alt="Windows 8">
-				</div>
+                </div>
 				<div class="copyright">
 					<p>Copyright &copy; 2000-2016 - <a href="/" target="_top"><span>*</span>instinctools</a></p>
+                    <div class="socials">
 					<a class="social social-fa" href="https://www.facebook.com/instinctoolslabs" title="facebook" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 					<a class="social social-fa" href="https://www.linkedin.com/company/instinctoolseelabs" title="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					<a class="social social-fa" href="https://twitter.com/instinctools_EE" title="twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
@@ -26,7 +27,8 @@
                     <a class="social social-fa" href="http://www.slideshare.net/instinctools_EE_Labs/" title="slideshare" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a>
                     <a class="social social-fa" href="https://ru.pinterest.com/instinctools/" title="pinterest" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     <a class="social social-fa" href="https://www.behance.net/instinctools/" title="behance" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
-				</div>
+				    </div>
+                </div>
 				<span class="clear"></span>
 			</section>
 		</footer>
