@@ -157,7 +157,7 @@ body {
   font-size: 14px;
   font-family: "Roboto Light";
   font-weight: normal;
-  min-width: 915px;
+  /*min-width: 915px;*/
   background-color: #fff; }
 
 body a,body a:visited,body a:hover{outline: none;}
@@ -1871,12 +1871,12 @@ footer section {
         width: 100%; } }
   footer section .copyright {
     color: #fff;
-    width: 15%;
+    width: 13.5%;
     text-align: right;
     float: left; }
     footer section .copyright a.social {
       display: inline-block;
-      margin: 28px 0 0 14px;
+      margin: 28px 0 0 18px;
       opacity: 1;
     }
     footer section .copyright a.social-fa {
@@ -4356,4 +4356,524 @@ php-components__table td
     color: #fff;
     text-align: center;
     border-radius: 3px;
+}
+
+
+
+
+/*----------responsive---------------*/
+#menu-btn{
+  display: none;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1024px){
+  #home > iframe{
+    display: none;
+  }
+  header > div{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #logo{
+    margin:0px;
+    flex-basis: 200px;
+    flex-grow: 0;
+  }
+  #logo img{
+    width: 90%;
+    padding: 3% 0 0 3%;
+  }
+  header nav > ul > li > a{
+    padding: 8px 20px 10px;
+    font-size: 16px;
+  }
+  header > div nav{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+  }
+  body#home header section{
+    height: 400px;
+  }
+  nav > ul > li{
+    height: 50px;
+  }
+  #banner-partner h3 {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+  #banner-partner p {
+      font-size: 16px;
+  }
+  #free-estimation{
+    background-position: right center;
+  }
+  #free-estimation form{
+    width: 65%;
+  }
+  #free-estimation form h3{
+    font-size: 40px;
+  }
+  #free-estimation form .project-desc > div {
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  body>iframe{
+    display: none;
+  }
+
+  header div>nav{
+    display: none;
+  }
+  header>div{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #logo {
+    margin: 0px;
+    flex-basis: 200px;
+    flex-grow: 0;
+  }
+  #logo img {
+    width: 90%;
+    padding: 3% 0 0 3%;
+  }
+
+  #menu-btn{
+    display: block;
+  }
+  #free-estimation{
+    background-position: right center;
+  }
+  #free-estimation form{
+    width: 65%;
+  }
+  #free-estimation form h3{
+    font-size: 40px;
+  }
+  #free-estimation form .project-desc > div {
+    overflow: hidden;
+  }
+  body#home header section{
+    height: 100%;
+  }
+  #banner-partner{
+    position: relative;
+    top: 90px;
+    width: 80%;
+    padding-left: 12%;
+  }
+  #banner-partner h3{
+    position: relative;
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    display: inline-block;
+  }
+  #banner-partner p{
+    position: relative;
+    float: none;
+  }
+  #banner-expert{
+    position: relative;
+    top: 90px;
+    margin-bottom: 14%;
+    width: 80%;
+    left: 254px;
+  }
+  #banner-expert h3{
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 10% 5% 2% 8%;
+  }
+  #banner-expert p{
+    position: relative;
+    float: none;
+    padding-left: 30px;
+  }
+  #menu-specialists-menu{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  header section #caption-wrapper:hover{
+    position: absolute;
+  }
+  #benefits .banner{
+    float: none;
+    transform: skewX(0deg);
+    border: none;
+  }
+  #benefits .banner span{
+    transform: skewX(0deg);
+  }
+  #benefits .banner:nth-child(3) span{
+    margin-top: 50px;
+  }
+  #benefits .banner:nth-child(4) span{
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+  #expertise-areas{
+    padding-bottom: 100px;
+  }
+  #expertise-areas a img {
+    margin-left: -42%;
+  }
+  #expertise-areas a {
+    margin-left: 0;
+    width: 49.38095%;
+  }
+  #free-estimation form{
+    width: 100%;
+    margin-right: -6%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 560px){
+  body>iframe{
+    display: none;
+  }
+
+  header div>nav{
+    display: none;
+  }
+  header>div{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #logo {
+    margin: 0px;
+    flex-basis: 200px;
+    flex-grow: 0;
+  }
+  #logo img {
+    width: 90%;
+    padding: 3% 0 0 3%;
+  }
+
+  #menu-btn{
+    display: block;
+  }
+  body#home header section{
+    height: 100%;
+  }
+  #banner-partner{
+    position: relative;
+    top: 90px;
+    width: 87%;
+    padding-left: 12%;
+  }
+  #banner-partner h3{
+    position: relative;
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    display: inline-block;
+  }
+  #banner-partner p{
+    position: relative;
+    float: none;
+    width: 88%;
+  }
+  #banner-expert{
+    position: relative;
+    top: 90px;
+    min-height: 150px;
+    margin-bottom: 20%;
+    width: 100%;
+    left: 38px;
+  }
+  #banner-expert h3{
+    position: relative;
+    width: 37%;
+    float: left;
+    padding: 6% 4% 2% 3%;
+    margin:0;
+  }
+  #banner-expert p{
+    position: relative;
+    width: 42%;
+    float: left;
+    padding: 6% 0% 2% 0%;
+    margin: 0;
+  }
+  #menu-specialists-menu{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  header section #caption-wrapper:hover{
+    position: absolute;
+  }
+  #benefits .banner{
+    float: none;
+    transform: skewX(0deg);
+    border: none;
+  }
+  #benefits .banner span{
+    transform: skewX(0deg);
+    margin: 50px 20px 0 20px;
+  }
+  #benefits .banner:nth-child(3) span{
+    margin-top: 50px;
+  }
+  #benefits .banner:nth-child(4) span{
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  #expertise-areas{
+    padding-bottom: 100px;
+  }
+  #expertise-areas a img {
+    margin-left: -54%;
+  }
+  #expertise-areas a {
+    margin-left: 0;
+    width: 49.38095%;
+  }
+  #free-estimation{
+    background-position: right center;
+    min-height: 370px;
+  }
+  #free-estimation form{
+    min-height: 370px;
+    margin: 0;
+    bottom: 0;
+    width: 115%;
+    left: -7%;
+  }
+  #free-estimation form h3{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  #free-estimation form .project-desc > div {
+    overflow: hidden;
+  }
+  #free-estimation form .fields{
+    margin: 30px 0 0 13%;
+  }
+  #free-estimation form .project-desc{
+    margin: 30px 0 0 30px;
+    width: 41%;
+  }
+  #nearshoring{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  #nearshoring > a {
+    margin: 0;
+    flex-basis: 30%;
+    padding-top: 10%;
+  }
+  #nearshoring > div:nth-child(2), #nearshoring > a:nth-child(2){
+    margin: 0;
+  }
+  #nearshoring > div:nth-child(5), #nearshoring > a:nth-child(5){
+    margin: 0;
+  }
+  #nearshoring > div span, #nearshoring > a span {
+    font: 1.31429em "Roboto Light";
+    display: block;
+  }
+      
+}
+
+
+
+/*-------------style for burger menu-----------------------*/
+
+#menu-btn:hover .top {
+  transform: translateY(-0.9375px);
+}
+#menu-btn:hover .bottom {
+  transform: translateY(0.9375px);
+}
+#menu-btn.active .top {
+  transform: translate(0, 10px) rotate(45deg);
+  -webkit-transform: translate(0, 10px) rotate(45deg);
+  -moz-transform: translate(0, 10px) rotate(45deg);
+}
+#menu-btn.active .middle {
+  opacity: 0;
+}
+#menu-btn.active .bottom {
+  transform: translate(0, -10px) rotate(-45deg);
+  -webkit-transform: translate(0, -10px) rotate(-45deg);
+  -moz-transform: translate(0, -10px) rotate(-45deg);
+}
+#menu-btn.active .text {
+  opacity: 0;
+  transform: translateX(30px);
+}
+.burger {
+  float: left;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  display: block;
+}
+.burger .parts {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 16.6%;
+  background-color: #d3dcef;
+  left: 0;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+.burger .top {
+  top: 8.325%;
+}
+.burger .middle {
+  top: 41.625%;
+}
+.burger .bottom {
+  top: 74.925%;
+}
+
+.text {
+  float: left;
+  margin-right: 7.5px;
+  color: black;
+  font-weight: 900;
+  font-size: 37.5px;
+  line-height: 30px;
+  opacity: 0.25;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+#menu_burger{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 500;
+  margin-right: -110%;
+  background-color: grey;
+  padding-top: 78px;
+  opacity: 0.9;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+/*#menu_burgerul li {
+  margin-top: -48px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+#menu_burger ul {
+  padding-right: 24px;
+  text-align: right;
+  list-style: none;
+  font-size: 48px;
+  margin: 0;
+}
+*/
+#menu_burger.active ul li {
+  margin-top: 0;
+  transition-delay: 0.12s;
+  -webkit-transition-delay: 0.12s;
+  -moz-transition-delay: 0.12s;
+}
+#menu_burger.active {
+  margin-right: 0;
+  overflow-y: scroll;
+}
+
+#menu-btn {
+  position: absolute;
+  top: 0;
+  right: -6px;
+  margin: 12px;
+  background-color: #809cd0;
+  padding: 10px 20px 10px 15px;
+  margin: 0;
+  -webkit-transform: skewX(-12deg);
+  -o-transform: skewX(-12deg);
+  -ms-transform: skewX(-12deg);
+  transform: skewX(-12deg);
+}
+
+
+#menu_burger li {
+  list-style-type: none;
+}
+#menu_burger li.menu-item-has-children {
+  padding-top: 70px;
+  border-left: 1px solid #f2f2f2;
+  min-height: 282px;
+  padding-bottom: 20px;
+  float: left;
+  width: 19.5%;
+  width: 15%\9;
+  padding-left: 4.5%;
+  color: #999;
+  -moz-transform: skewX(-12deg);
+  -webkit-transform: skewX(-12deg);
+  -o-transform: skewX(-12deg);
+  -ms-transform: skewX(-12deg);
+  transform: skewX(-12deg); 
+}
+#menu_burger > ul > li:first-child {
+  display: none; 
+}
+#menu_burger li.menu-item-has-children:nth-child(2) {
+  border-left: none; 
+}
+  #menu_burger.menu-item-has-children ul a {
+  color: #999;
+  text-decoration: none; 
+}
+#menu_burger.menu-item-has-children ul a:hover {
+    color: #000; 
+}
+#menu_burger.menu-item-has-children > * {
+  display: block;
+  text-decoration: none;
+  -moz-transform: skewX(12deg);
+  -webkit-transform: skewX(12deg);
+  -o-transform: skewX(12deg);
+  -ms-transform: skewX(12deg);
+  transform: skewX(12deg); 
+}
+
+header div #menu-btn.menu-item-has-children ul li {
+    list-style-type: none;
+    font: 1em arial;
+    margin-bottom: 12px;
+    margin-left: 40px;
+}
+
+#menu_burger a {
+    color: #fff;
+    text-decoration: none;
 }

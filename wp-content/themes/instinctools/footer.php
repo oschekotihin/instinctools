@@ -23,15 +23,13 @@
 					<a class="social social-fa" href="https://twitter.com/instinctools_EE" title="twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					<a class="social social-fa" href="https://www.instagram.com/instinctools_ee/" title="instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 					<a class="social social-fa" href="/company/blog" title="blog"><i class="fa fa-book" aria-hidden="true"></i></a>
-                    <a class="social social-fa" href="http://www.slideshare.net/instinctools_EE_Labs/" title="slideshare" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a>
-                    <a class="social social-fa" href="https://ru.pinterest.com/instinctools/" title="pinterest" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                    <a class="social social-fa" href="https://www.behance.net/instinctools/" title="behance" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
 				</div>
 				<span class="clear"></span>
 			</section>
 		</footer>
 			</main>
 		<?php wp_footer(); ?>
+		<div id="menu_burger"></div>
 
 		<!--<script language="JavaScript" type="text/javascript">
 		var url = '\''+window.location.hostname+'\'';
@@ -51,6 +49,34 @@
 
 		// -->
 		<!--</script>-->
+		<script language="JavaScript" type="text/javascript">
+			(function() {
+			  var menu;
+			  var menuBtn;
+			  var menuItems;
+			  
+			  function toggleActive() {
+				menuBtn.toggleClass('active');
+				menu.toggleClass('active');
+			  }
+
+			  $(document).ready(function() {
+				menu = $('#menu_burger');
+				menuBtn = $('#menu-btn');
+				menuItems = menu.find('li');
+				
+				menuBtn.click(toggleActive);
+				menuItems.click(toggleActive);
+			  });
+			  $( "#menu-main-menu-en-1" ).clone().appendTo( "#menu_burger" );
+			}()
+			);
+		</script>
+		<script>
+			/*$("#menu-btn").on("click", function()  {
+				$( "#menu-main-menu-en-1" ).clone().appendTo( "#menu_burger" );
+			});*/
+		</script>
 
 		<script language="JavaScript" type="text/javascript">
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -106,6 +106,13 @@
 				<nav>
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu','container' => 'false','after' => '<span></span><span class="submenu-division"></span>' ) ); ?>
 				</nav>
+				<a id="menu-btn" href="#" title="Menu">
+				  <div class="burger">
+					<span class="parts top"></span>
+					<span class="parts middle"></span>
+					<span class="parts bottom"></span>
+				  </div>
+				</a>
 			</div>
 			<img src="<?php bloginfo('template_url'); ?>/images/header-video.jpg" alt="" id="cover-image">
 			<?php
