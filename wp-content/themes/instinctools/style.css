@@ -1545,6 +1545,74 @@ color:#333;}
     @media only screen and (max-width: 1100px) {
       #free-estimation form {
         width: 88.18182%; } }
+
+@media only screen and (min-width: 320px) and (max-width: 559px) {
+
+  #free-estimation{
+    min-height: 0;
+  }
+
+  #free-estimation form,#free-estimation form h3,#free-estimation form .project-desc textarea,#free-estimation form input{
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+
+  #free-estimation form .fields > div,#free-estimation form .project-desc #get-free-estimation {
+    -moz-transform: skewX(-12deg);
+    -webkit-transform: skewX(-12deg);
+    -o-transform: skewX(-12deg);
+    -ms-transform: skewX(-12deg);
+    transform: skewX(-12deg);
+  }
+
+  #free-estimation form {
+    width: 100%;
+    position: static;
+    min-height: 0;
+    margin-left: 0;
+  }
+
+  #free-estimation form h3{
+    margin-bottom: 28px;
+    margin-top: 37px;
+    font-size: 30px;
+    width: 88%;
+  }
+
+  #free-estimation form .fields{
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  #free-estimation form .fields > div{
+    margin: 0 0 18px 0;
+    width: 100%;
+  }
+
+  #free-estimation form .project-desc{
+    width: 89.5%;
+    margin: 0 auto 25px auto;
+    float: none;
+  }
+
+  #free-estimation form .project-desc > div{
+    width: 100%;
+  }
+
+  #free-estimation form .project-desc #get-free-estimation{
+    float: none;
+    width: 100%;
+  }
+
+  #free-estimation form .project-desc #get-free-estimation input{
+    font-size: 1.55714em;
+  }
+}
+
   #free-estimation #blockquote {
     color: #fff;
     border-left: 7px solid #fff;
@@ -1777,6 +1845,17 @@ color:#333;}
   @media only screen and (max-width: 1349px) {
     #nearshoring {
       min-height: 608px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 559px){
+
+  #client-testimonials {
+    min-height: 0;
+  }
+
+  .bx-wrapper{
+    font-size: 16px;
+  }
+}
 
 footer {
   overflow: hidden;
@@ -2037,11 +2116,7 @@ footer section .copyright {
     float: left; }
     footer section .copyright a.social {
       display: inline-block;
-<<<<<<< HEAD
       margin: 28px 0 0 18px;
-=======
-      margin: 35px 0 0 18px;
->>>>>>> f0366289680d874d310f7f672faccb03d90310f0
       opacity: 1;
     }
     footer section .copyright a.social-fa {
@@ -2492,7 +2567,7 @@ footer article li.menu-item-has-children ul li:before{
    -moz-transform: skewX(-12deg);
     -webkit-transform: skewX(-12deg);
     -o-transform: skewX(-12deg);
-    -ms-transform: skewX-12deg);
+    -ms-transform: skewX(-12deg);
     transform: skewX(-12deg);
 }
 .estimate-contact{
@@ -2501,7 +2576,7 @@ footer article li.menu-item-has-children ul li:before{
     -moz-transform: skewX(-12deg);
     -webkit-transform: skewX(-12deg);
     -o-transform: skewX(-12deg);
-    -ms-transform: skewX-12deg);
+    -ms-transform: skewX(-12deg);
     transform: skewX(-12deg);
     width:112%;
     padding:30px 0px;
@@ -3569,7 +3644,7 @@ div.wpcf7-mail-sent-ok {float:right; border:0; color:#fff; font-size:120%;}
   -moz-transform: skewX(-12deg);
   -webkit-transform: skewX(-12deg);
   -o-transform: skewX(-12deg);
-  -ms-transform: skewX-12deg);
+  -ms-transform: skewX(-12deg);
   transform: skewX(-12deg);
   padding: 0;
   margin-top: 0;
@@ -4358,7 +4433,7 @@ h3.links-title
     margin-top: 1rem;
 }
 .php-components__table th,
-php-components__table td
+.php-components__table td
 {
     width: 25%;
 
