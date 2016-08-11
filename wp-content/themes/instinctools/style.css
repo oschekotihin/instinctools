@@ -5457,12 +5457,7 @@ h3.links-title
     padding: 0 0 2% 13%;
     margin: 0;
   }
-  #menu-specialists-menu{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-  }
+
   header section #caption-wrapper:hover{
     position: absolute;
   }
@@ -5480,6 +5475,7 @@ h3.links-title
     margin-right: 0;
     float: none;
     position: absolute;
+    padding-right: 0;
   }
 
   header section .caption img{
@@ -5496,6 +5492,50 @@ h3.links-title
 
   header > video{
     top: 27px;
+  }
+
+  #menu-specialists-menu{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-right: 5%;
+  }
+
+  header section #menu-specialists-menu{
+    float: none;
+    clear: none;
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+    width:100%;
+    margin-right: 0;
+    border-left: 0;
+  }
+
+  header section #menu-specialists-menu li{
+    display: block;
+    margin-left: 0;
+    padding: 0 30%;
+  }
+
+  header section #menu-specialists-menu li a{
+    height: 155px;
+    padding-right: 0;
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header section #menu-specialists-menu li a span{
+    display: block;
+    margin:0 auto;
   }
 }
 
