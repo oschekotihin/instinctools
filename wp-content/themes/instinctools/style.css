@@ -5411,7 +5411,7 @@ h3.links-title
   }
   #banner-partner{
     position: relative;
-    top: 30px;
+    top: 94px;
     width: 92%;
     padding-left: 8%;
     left: 0;
@@ -5434,9 +5434,9 @@ h3.links-title
   }
   #banner-expert{
     position: relative;
-    top: 60px;
-    min-height: 180px;
-    margin-bottom: 26%;
+    top: 124px;
+    min-height: 165px;
+    margin-bottom: 49%;
     width: 100%;
     left: 0;
     right: 0;
@@ -5479,20 +5479,23 @@ h3.links-title
     width: 100%;
     margin-right: 0;
     float: none;
+    position: absolute;
   }
 
   header section .caption img{
     margin: 0;
+    position: relative;
+    top: 5px;
   }
 
   header section .caption{
     float: left;
     width: 100%;
-    padding-left: 25px;
+    padding-left: 8%;
   }
 
   header > video{
-    top: 25px;
+    top: 27px;
   }
 }
 
@@ -5672,4 +5675,163 @@ header div #menu-btn.menu-item-has-children ul li {
 #menu_burger a {
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 559px) and (min-width: 320px){
+
+  .menu-main-menu-en-1 .menu-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #menu_burger{
+    padding-top: 40px;
+  }
+
+  #menu_burger li.menu-item-has-children{
+    padding-top: 40px;
+    border-left: none;
+    min-height: 0;
+    padding-bottom: 0;
+    float: none;
+    width: 93%;
+    padding-left: 8%;
+    color: #999;
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+    line-height: 25px;
+  }
+
+  #menu_burger li.menu-item-has-children:last-of-type{
+    padding-bottom: 20px;
+  }
+
+  #menu_burger li.menu-item-has-children a{
+    font-size: 20px;
+  }
+
+  #menu_burger li.menu-item-has-children a{
+    color: #809cd0;
+    font-weight: 900;
+  }
+
+  #menu_burger li.menu-item-has-children .sub-menu li.menu-item a{
+    color: #FFFFFF;
+  }
+
+  .menu-item-has-children div{
+    padding-top: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 560px){
+
+  .menu-main-menu-en-1 .menu-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #menu_burger{
+    padding-top: 40px;
+  }
+
+  #menu_burger li.menu-item-has-children{
+    padding-top: 40px;
+    border-left: none;
+    min-height: 0;
+    padding-bottom: 0;
+    float: none;
+    width: 100%;
+    padding-left: 4%;
+    color: #999;
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+    line-height: 25px;
+  }
+
+  #menu_burger li.menu-item-has-children:last-of-type{
+    padding-bottom: 20px;
+  }
+
+  #menu_burger li.menu-item-has-children a{
+    font-size: 25px;
+  }
+
+  #menu_burger li.menu-item-has-children a{
+    color: #809cd0;
+    font-weight: 900;
+  }
+
+  #menu_burger li.menu-item-has-children .sub-menu li.menu-item{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #menu_burger li.menu-item-has-children .sub-menu li.menu-item a{
+    color: #FFFFFF;
+  }
+
+  .menu-item-has-children div{
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+  #menu-main-menu-en-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #menu_burger{
+    padding-top: 40px;
+  }
+
+  #menu_burger li.menu-item-has-children{
+    padding-top: 40px;
+    min-height: 0;
+    padding-bottom: 0;
+    width: 43%;
+    padding-left: 6%;
+    color: #999;
+    line-height: 32px;
+    float: none;
+    border: none;
+  }
+
+  #menu_burger li.menu-item-has-children:last-of-type {
+    padding-bottom: 50px;
+  }
+
+  #menu_burger li.menu-item-has-children a{
+    font-size: 25px;
+  }
+
+  #menu_burger li.menu-item-has-children a{
+    color: #809cd0;
+    font-weight: 900;
+  }
+
+  #menu_burger li.menu-item-has-children .sub-menu li.menu-item{
+    width: 100%;
+  }
+
+  #menu_burger li.menu-item-has-children .sub-menu li.menu-item a{
+    color: #FFFFFF;
+  }
+
+  .menu-item-has-children div{
+    padding-top: 20px;
+  }
 }
