@@ -1828,6 +1828,34 @@ color:#333;}
     font-style: italic;
     line-height: 130%;
   }
+
+@media only screen and (max-width: 559px) and (min-width: 320px){
+  main{
+    max-width: 559px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 560px){
+  main{
+    max-width: 767px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  main{
+    max-width: 1023px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1024px){
+  main{
+    max-width: 1399px;
+    width: 100%;
+  }
+}
   #client-testimonials .bx-wrapper:nth-child(2) {
     width: 31.5%;
     margin: 110px 6.5% 0 !important;
@@ -2338,8 +2366,8 @@ footer section .copyright {
         margin:0 0 0 11px;
     }
 
-    footer section .copyright #first-social{
-        margin-left: 3%;
+    .copyright .socials a:first-of-type {
+    margin-left: 3%;
     }
 
     footer section .copyright{
