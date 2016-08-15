@@ -1829,33 +1829,6 @@ color:#333;}
     line-height: 130%;
   }
 
-@media only screen and (max-width: 559px) and (min-width: 320px){
-  main{
-    max-width: 559px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 767px) and (min-width: 560px){
-  main{
-    max-width: 767px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1023px) and (min-width: 768px){
-  main{
-    max-width: 1023px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1399px) and (min-width: 1024px){
-  main{
-    max-width: 1399px;
-    width: 100%;
-  }
-}
   #client-testimonials .bx-wrapper:nth-child(2) {
     width: 31.5%;
     margin: 110px 6.5% 0 !important;
@@ -4902,7 +4875,6 @@ h3.links-title
     }
     .section-headline
     {
-        min-width: 960px;
         margin: 2rem 0 1.2rem 0;
     }
     .section-headline__image
@@ -5904,4 +5876,312 @@ header div #menu-btn.menu-item-has-children ul li {
   .menu-item-has-children div{
     padding-top: 20px;
   }
+}
+
+@media only screen and (max-width: 559px) and (min-width: 320px){
+
+  main{
+    max-width: 559px;
+    width: 100%;
+  }
+
+  .main-all section{
+    height: 320px;
+  }
+
+  #banner-page, #banner-page h3{
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+
+  #banner-page{
+    border-right: none;
+    left: 0;
+    bottom: 0;
+    padding: 30px 0;
+    width: 100%;
+    margin-top: 40%;
+  }
+
+  #banner-page h3{
+    text-align: center;
+  }
+
+  header > video {
+    top: 28px;
+  }
+
+  .video-1,.video-2{
+    margin-top: 0;
+  }
+
+  .inner-page{
+    width: 100%;
+  }
+
+  .inner-page .slice-left{
+    float: none;
+  }
+
+  .inner-page .center-area-inner-page{
+    width: 90%;
+    margin: 50px auto 0 auto;
+    float: none;
+    display:block;
+  }
+
+  .center-area-inner-page ul{
+    margin-left: 0;
+  }
+
+  .inner-page .right-area-inner-page{
+    float: none;
+    margin-left: 0 !important;
+    width: 100%;
+    position: static;
+    display: block;
+  }
+
+  .right-area-inner-page .bx-wrapper{
+    margin-left: 0 !important;
+  }
+
+  .right-area-inner-page h3{
+    text-align: center;
+  }
+
+  .inner-page .right-area-inner-page #author .description{
+    width: 70%;
+    float: left;
+  }
+
+  .right-area-inner-page .bx-wrapper:nth-child(3) {
+    float: none;
+    margin: 0 auto !important;
+    padding-top: 30px;
+    width: 61%;
+  }
+
+  .right-area-inner-page .bx-wrapper:nth-child(3) .bx-viewport{
+    height: 180px;
+  }
+
+  .inner-page .right-area-inner-page #author img{
+    width: 50%;
+    margin: 0 0 20px 0;
+  }
+
+  .right-area-inner-page .bx-controls-direction a {
+    top: 104%;
+    margin-top: 0 !important;
+    height: 50px;
+  }
+
+  .right-area-inner-page .bx-wrapper .bx-prev{
+    left: 0 !important;
+  }
+
+  .estimate-contact,.area-estimate,.area-estimate form{
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+
+  .box-estimate-contact-inner{
+    border-left: 0;
+  }
+
+  .area-estimate{
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .right-area-inner-page h3{
+    letter-spacing: 0;
+  }
+
+  .area-estimate .fields {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .area-estimate .fields > div{
+    -moz-transform: skewX(-12deg);
+    -webkit-transform: skewX(-12deg);
+    -o-transform: skewX(-12deg);
+    -ms-transform: skewX(-12deg);
+    transform: skewX(-12deg);
+    margin: 0 0 18px 0;
+  }
+
+  .area-estimate .project-desc {
+    width: 89.5%;
+    margin: 0 auto 25px auto;
+    float: none;
+  }
+
+  .area-estimate .project-desc #get-free-estimation{
+    margin-right: 0;
+  }
+
+  .area-estimate .project-desc > div:first-child{
+    width: 100%;
+  }
+
+  .area-estimate .project-desc #get-free-estimation{
+    margin-left: 35%;
+  }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 560px){
+
+  main{
+  max-width: 767px;
+  width: 100%;
+  }
+
+  .main-all section{
+    height: 320px;
+  }
+
+  #banner-page, #banner-page h3{
+    -moz-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+
+  #banner-page{
+    border-right: none;
+    left: 0;
+    bottom: 0;
+    padding: 30px 0;
+    width: 100%;
+    margin-top: 40%;
+  }
+
+  #banner-page h3{
+    text-align: center;
+  }
+
+  header > video {
+    top: 28px;
+  }
+
+  .video-1,.video-2{
+    margin-top: 0;
+  }
+
+  .inner-page{
+    width: 100%;
+  }
+
+  .inner-page .slice-left{
+    float: none;
+  }
+
+  .inner-page .center-area-inner-page{
+    width: 90%;
+    margin: 50px auto 0 auto;
+    float: none;
+    display:block;
+  }
+
+  .center-area-inner-page ul{
+    margin-left: 0;
+  }
+
+  .inner-page .right-area-inner-page{
+    float: none;
+    margin-left: 0 !important;
+    width: 100%;
+    position: static;
+    display: block;
+  }
+
+  .right-area-inner-page .bx-wrapper{
+    margin-left: 0 !important;
+  }
+
+  .right-area-inner-page h3{
+    text-align: center;
+  }
+
+  .inner-page .right-area-inner-page #author .description{
+    width: 70%;
+    float: left;
+  }
+
+  .right-area-inner-page .bx-wrapper:nth-child(3) {
+    float: none;
+    margin: 0 auto !important;
+    padding-top: 30px;
+    width: 61%;
+  }
+
+  .right-area-inner-page .bx-wrapper:nth-child(3) .bx-viewport{
+    height: 180px;
+  }
+
+  .inner-page .right-area-inner-page #author img{
+    width: 50%;
+    margin: 0 0 20px 0;
+  }
+
+  .right-area-inner-page .bx-controls-direction a {
+    top: 104%;
+    margin-top: 0 !important;
+    height: 50px;
+  }
+
+  .right-area-inner-page .bx-wrapper .bx-prev{
+    left: 0 !important;
+  }
+
+  .box-estimate-contact-inner{
+    border-left: 0;
+  }
+
+  .area-estimate{
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .right-area-inner-page h3{
+    letter-spacing: 0;
+  }
+
+  .area-estimate .project-desc {
+    width: 89.5%;
+    margin: 0 auto 25px auto;
+    float: none;
+  }
+
+  .area-estimate .project-desc #get-free-estimation{
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+main{
+max-width: 1023px;
+width: 100%;
+}
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1024px){
+main{
+max-width: 1399px;
+width: 100%;
+}
 }
